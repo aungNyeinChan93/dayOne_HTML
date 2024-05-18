@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.box {
+  width: 200px;
+  height: 200px;
+}
+.box-1 {
+  background-color: rgb(227, 240, 53);
+  padding: 10px;
+  text-align: center;
+  line-height: 200px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin: 50px auto;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 20px red;
+}
+.box-1:hover {
+  box-shadow: 10px 10px 10px red, -10px -10px 20px green, -10px 10px 20px yellow,
+    10px -10px 20px rgb(136, 12, 173);
+  box-shadow: 0 0 20px 20px green;
+  width: 100px;
+  height: 100px;
+  box-shadow: inset 0 0 20px 20px green, 0 0 20px 20px red;
+}
+.box-2 {
+  background-color: rgb(0, 255, 115);
+  text-align: center;
+  line-height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin: 10px auto;
+  border: 10px solid red;
+  border-top: 20px solid blue;
+  border-bottom: 20px dotted green;
+  border-left: 20px double red;
+  border-radius: 10px 0;
+  border-radius: 100px 100px 0 0;
+  border-radius: 100px;
+  border-radius: 50%;
+}
+
+/* h1{
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 4px 4px 4px red;
+    -webkit-text-stroke: 3px white;
+}
+h1:hover{
+    -webkit-text-stroke: 3px white;
+    text-shadow: 4px 4px 4px green;
+    background-color: yellow;
+} */
+
+.bg{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs1kSCfsJwoii5XmqQ_DeoLBMna-gILOLNAw&s");
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qc6VE5vugyLOSlXiWh1V4mF0iuLlFjByhA&s");
+    font-size: 10rem ;
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px  10px red;
+}
